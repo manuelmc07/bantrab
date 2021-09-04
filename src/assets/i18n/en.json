@@ -1,0 +1,36 @@
+{
+  "LOGIN": {
+    "LOGIN": "Login",
+    "EMAIL": "Email",
+    "PASSWORD": "Password",
+    "PASSWORD_REQUIRED": "Password is required",
+    "EMAIL_REQUIRED": "Email is required",
+    "EMAIL_BAD_FORMAT": "Enter correct email",
+    "FORGOT_PASSWORD": "Forgot password",
+    "SING_UP": "You do not have an account? Sign up",
+    "RECOVER_PASSWORD": "Recover password",
+    "CANCEL": "Cancel",
+    "LOGOUT": "Logout",
+    "CONFIRM_PASSWORD": "Confirm password",
+    "CONFIRM_PASSWORD_REQUIRED": "Confirm password is required",
+    "NAME": "Name",
+    "NAME_REQUIRED": "Name is required",
+    "COUNTRY": "Country",
+    "COUNTRY_REQUIRED": "Country is required",
+    "PHONE": "Phone",
+    "PHONE_REQUIRED": "Phone is required",
+    "PASSWORD_CONFIRM_ERROR": "Passwords must match",
+    "REGISTER_SUCCESS": "Register success, login",
+    "REGISTER": "Register",
+    "CHECK_EMAIL": "Check your email"
+  },
+  "MESSAGES": {
+    "INVALID_CREDENTIALS": "Invalid credentials"
+  },
+  "NAVBAR": {
+    "HOME": "Home",
+    "MANAGEMENTS": "MANAGEMENTS",
+    "NEWS": "NEWS",
+    "CATEGORY": "Category"
+  }
+}

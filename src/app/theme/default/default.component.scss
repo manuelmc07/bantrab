@@ -1,0 +1,141 @@
+.example-icon {
+  padding: 0 14px;
+}
+
+.example-spacer {
+  flex: 0.9 0.9 auto;
+}
+
+.user-navbar {
+  background-color: #2C2C2C !important;
+  color: #fff !important;
+}
+
+mat-drawer {
+  overflow-x: hidden !important;
+  width: 280px;
+  height: 100% !important;
+}
+
+button:focus {
+  outline: none !important;
+}
+
+.mat-focus-indicator::before {
+  outline: none !important;
+}
+
+.img-size {
+  height: 25px;
+}
+
+.mat-toolbar {
+  position: relative;
+}
+
+.mat-drawer-inner-container {
+  overflow: hidden !important;
+}
+
+.mat-drawer {
+  background-color: #FFFFFF;
+  color:#fff
+}
+
+.mat-divider {
+  border-top-color: white;
+}
+
+.main-content {
+  overflow: hidden !important;
+}
+
+.menu-item:hover {
+  color: #FF1878 !important;
+  cursor: pointer !important;
+  display: flex;
+  align-items: center;
+
+  mat-icon {
+    color: white !important;
+  }
+
+  .mt-1 {
+    margin-top: 3px !important;
+  }
+}
+
+.menu-item {
+  color: white !important;
+  cursor: pointer !important;
+  display: flex;
+  align-items: center;
+
+  mat-icon {
+    color: white !important;
+  }
+
+  .mt-1 {
+    margin-top: 3px !important;
+  }
+}
+
+.menu-item:active {
+  color: #FF1878 !important;
+  cursor: pointer !important;
+  display: flex;
+  align-items: center;
+
+  mat-icon {
+    color: white !important;
+  }
+
+  .mt-1 {
+    margin-top: 3px !important;
+  }
+}
+
+.img-avatar {
+  height: 70px;
+  width: 120px;
+}
+
+.img-user {
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.avatar-primary {
+  background-color: #232021 !important;
+}
+
+.avatar-second {
+  background-color: #232021 !important;
+  border-right: 4px solid #0DA8B0 !important;
+}
+
+.avatar {
+  height: 30px;
+  width: 30px;
+  border-radius: 20px;
+}
+
+.navbar-text {
+  color: #8B8D8C !important;
+}
+
+.sub-background {
+  background-color: #E6E6E6 !important;
+  color: #5B5B5B !important;
+}
+
+.news-text {
+  color: #DDDDDD !important;
+}
+
+.category-icon {
+  color: #0DA8B0 !important;
+}

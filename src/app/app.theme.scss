@@ -1,0 +1,129 @@
+@use '~@angular/material' as mat;
+
+@include mat.core();
+@include mat.strong-focus-indicators((
+  border-style: dotted,
+  border-width: 4px,
+  border-radius: 2px,
+));
+
+$my-primary: mat.define-palette(mat.$indigo-palette, A200);
+$my-warn: mat.define-palette(mat.$indigo-palette, A700);
+$my-accent: mat.define-palette(mat.$indigo-palette, A400, A400, A400);
+
+$my-theme: mat.define-light-theme((
+  color: (
+    primary: $my-primary,
+    accent: $my-accent,
+    warn: $my-warn,
+  )
+));
+
+@include mat.all-component-themes($my-theme);
+@include mat.strong-focus-indicators-theme(purple);
+
+body{
+  background-color: #f0f0f0;
+  font-family: Roboto, 'Helvetice New', 'Arial', sans-serif
+}
+
+.bantrab-card {
+  display: flex !important;
+  flex-direction: column !important;
+  flex: 1 1 auto !important;
+  position: relative !important;
+  overflow: hidden !important;
+  visibility: visible !important;
+  width: 100% !important;
+  opacity: 1 !important;
+  z-index: 10 !important;
+  transition: transform 0.5s ease-out 0s, visibility 0s ease-in 0.2s, opacity 0s ease-in 0.2s !important;
+  transform: rotateY(0deg) !important;
+  backface-visibility: hidden !important;
+}
+
+.w-100-p {
+  width: 100%;
+}
+
+.w-50-p {
+  width: 50%;
+}
+
+.w-25-p {
+  width: 25%;
+}
+
+.w-74-p {
+  width: 74.2%;
+}
+
+.beco-color {
+  color: #02B5B9 !important;
+}
+
+.p-5 {
+  padding: 5px !important;
+}
+
+.ml-5 {
+  margin-left: 10px !important;
+}
+
+.mb-5 {
+  margin-bottom: 20px !important;
+}
+
+.mt-5 {
+  margin-top: 20px !important;
+}
+
+.mt-4 {
+  margin-top: 10px !important;
+}
+
+.ml-10 {
+  margin-left: 25px !important;
+}
+
+mat-icon {
+  color: #CCCDD1 !important;
+}
+
+// toast
+.toast-error {
+  background-color: red !important;
+  color: white !important;
+  .mat-simple-snackbar-action {
+    color: white !important;
+  }
+}
+
+.toast-success {
+  color: #FFFFFF !important;
+  .mat-simple-snackbar-action {
+    color: #FFFFFF !important;
+  }
+}
+
+// toast
+.toast-error {
+  background-color: #FF1878 !important;
+  color: white !important;
+  .mat-simple-snackbar-action {
+    color: white !important;
+  }
+}
+
+.toast-success {
+  color: #02B5B9 !important;
+  .mat-simple-snackbar-action {
+    color: #FFFFFF !important;
+  }
+}
+
+h1 {
+  font-size: 24px !important;
+  font-weight: bold !important;
+}
+

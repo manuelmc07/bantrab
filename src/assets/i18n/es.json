@@ -1,0 +1,36 @@
+{
+  "LOGIN": {
+    "LOGIN": "Iniciar Sesión",
+    "EMAIL": "Correo electrónico",
+    "PASSWORD": "Contraseña",
+    "PASSWORD_REQUIRED": "Contraseña es requerida",
+    "EMAIL_REQUIRED": "Correo electrónico es requerido",
+    "EMAIL_BAD_FORMAT": "Ingrese correo electrónico correcto",
+    "FORGOT_PASSWORD": "Olvidė mi contraseña",
+    "SING_UP": "No tienes cuenta? Regístrate",
+    "RECOVER_PASSWORD": "Recuperar contraseña",
+    "CANCEL": "Cancelar",
+    "LOGOUT": "Cerrar sesión",
+    "CONFIRM_PASSWORD": "Confirmar contraseña",
+    "CONFIRM_PASSWORD_REQUIRED": "Confirmar contraseña es requerido",
+    "NAME": "Nombre",
+    "NAME_REQUIRED": "Nombre es requerido",
+    "COUNTRY": "País",
+    "COUNTRY_REQUIRED": "País es requerido",
+    "PHONE": "Teléfono",
+    "PHONE_REQUIRED": "Teléfono es requerido",
+    "PASSWORD_CONFIRM_ERROR": "Las contraseñas no coinciden",
+    "REGISTER_SUCCESS": "Registro exitoso, Inicie sesión",
+    "REGISTER": "Registrarse",
+    "CHECK_EMAIL": "Revisa tu correo electrónico"
+  },
+  "MESSAGES": {
+    "INVALID_CREDENTIALS": "Credenciales inválidas"
+  },
+  "NAVBAR": {
+    "HOME": "Inicio",
+    "MANAGEMENTS": "GESTIONES",
+    "NEWS": "NUEVAS",
+    "CATEGORY": "Categoría"
+  }
+}

@@ -1,0 +1,50 @@
+@import "src/app/theme/default/scss/bantrab";
+
+.page-wrapper {
+  height: 100vh !important;
+}
+
+#home{
+
+  .sidebar {
+    width: 100px !important;
+    min-width: 100px !important;
+    max-width: 100px !important;
+
+    &.details-sidebar {
+      @include media-breakpoint('gt-md') {
+        z-index: 0;
+      }
+    }
+  }
+
+  .center {
+    overflow: hidden;
+
+    .header {
+      position: relative;
+      height: 80px;
+      min-height: 80px;
+      max-height: 80px;
+      background-color: #DCDCDC;
+
+      @include media-breakpoint('lt-md') {
+        height: 120px;
+        min-height: 120px;
+        max-height: 120px;
+      }
+    }
+
+    .content {
+      flex: 1 1 auto;
+      overflow: auto;
+      -webkit-overflow-scrolling: touch;
+    }
+  }
+}
+
+.button-menu {
+  background-color: #0DA8B0 !important;
+  color: white !important;
+  cursor: pointer !important;
+}
